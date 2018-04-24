@@ -11,6 +11,9 @@ public abstract class Product {
         this.name = name;
         this.describe = describe;
     }
+
+    public Product() {
+    }
     
     public double getPrice() {
         return price;

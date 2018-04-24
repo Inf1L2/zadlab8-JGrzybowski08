@@ -1,14 +1,13 @@
 package pl.edu.ur.oopl8;
 
-public class Tractor extends Product {
-
-    public Tractor(double price, String name, String describe) {
+public class Dzem extends Product{
+       public Dzem(double price, String name, String describe) {
         super(price, name, describe);
     }
 
     public void buy() {
         System.out.println(
-                "Kupiłem czarny ciągnik, pojemność 2400!");
+                "Kupilem Dzem!!");
     }
 
     public void showInfo() {
@@ -17,5 +16,5 @@ public class Tractor extends Product {
                 + " name:" + getName()
                 + " describe:" + getDescribe()
         );
-    }
+    } 
 }
